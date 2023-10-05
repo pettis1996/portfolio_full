@@ -92,6 +92,8 @@ body {
 
 .section-divider {
     height: 50px;
+    text-align: center;
+    width: 100%;
 }
 
 .up-button {
