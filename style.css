@@ -84,7 +84,7 @@ body {
 }
 
 .page-container .content-container {
-    padding: 0 70px;
+    padding: 50px 70px;
     border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -94,14 +94,56 @@ body {
     box-shadow: 2px 2px 4px 2px var(--shadow-color-dark);
 }
 
+.page-container .content-container-about {
+    padding: 50px 70px;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px 2px var(--shadow-color-dark);
+}
+
+.page-container .content-container-about .card {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.page-container .content-container-about .card .card-icon {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.page-container .content-container-about .card .card-icon img {
+    width: 75%;
+    height: 100%;
+}
+
+.page-container .content-container-about .card .card-body {
+    width: 100%;
+}
+
+.page-container .content-container-about .card .card-body .company-name {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.page-container .content-container-about .card .card-body .company-position {
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.page-container .content-container-about .card .card-body .responsibilities ul {
+    list-style:  square;
+}
+
 .page-container .content-container .home-title-big {
     font-size: 100px;
     grid-area: 1 / 1 / 2 / 2;
 }
 
 .page-container .content-container .home-description-med {
-    font-size: 38px;
-    text-align: end;
+    font-size: 35px;
+    text-align: start;
     display: flex;
     justify-content: center;
     align-items: center;
